@@ -18,7 +18,7 @@ const Login = () => {
             </div>
             <br/>
             <div className='input-box'>
-                 <input type='text' name='email' placeholder='Email ID' required/>
+                 <input type='email' name='email' placeholder='Email ID' required/>
             
             </div>
             <br/>
