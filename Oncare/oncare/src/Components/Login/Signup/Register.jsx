@@ -34,7 +34,7 @@ const Register = () => {
             <br/>
             <button type='submit' className='enroll'>Enroll</button>
 
-            <Link to="/Login">Already have an Account</Link>
+            <u><Link to="/Login" className='login'>Already have an Account</Link></u>
             </form>
         </div>
     )
