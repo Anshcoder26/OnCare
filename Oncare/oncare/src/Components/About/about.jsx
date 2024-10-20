@@ -1,8 +1,7 @@
 import React from 'react';
-import "./Login.css";
 import { Link } from 'react-router-dom';
 
-const Login = () => {
+const About = () => {
 
     return(
         <div className='foram'>
@@ -19,11 +18,11 @@ const Login = () => {
             <br/>
             <button type='submit' className='enroll'>Login</button>
             </form>
-            <u><Link to="/Register" className='registerbut'>Don't have an Account</Link></u>
+            <Link to="/Register">Don't have an Account</Link>
 
         </div>
     )
 }
 
 
-export default Login;
+export default About;
