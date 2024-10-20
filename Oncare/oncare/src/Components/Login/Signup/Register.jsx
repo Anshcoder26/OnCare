@@ -2,6 +2,7 @@ import React from 'react';
 import "./Register.css";
 import { FaMale } from "react-icons/fa";
 import { FaFemale } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Register = () => {
 
@@ -32,6 +33,8 @@ const Register = () => {
             <button type='female' className='gender1'><FaFemale className='icon'/></button>
             <br/>
             <button type='submit' className='enroll'>Enroll</button>
+
+            <Link to="/Login">Already have an Account</Link>
             </form>
         </div>
     )
