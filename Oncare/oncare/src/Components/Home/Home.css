@@ -1,0 +1,69 @@
+.SOS{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    height: 60px;
+}
+
+.logo .menu {
+    background-color: #C7253E;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons {
+    display: flex;
+    gap: 30px;
+  }
+
+  .icon{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .inbox::before {
+    content: '📥';
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .layers::before {
+    content: '📚';
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .layout::before {
+    content: '📐';
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image::before {
+    content: '🖼️';
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+

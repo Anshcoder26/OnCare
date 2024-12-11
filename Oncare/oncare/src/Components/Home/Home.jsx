@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import "./Home.css";
+import './Home.css';
 
 const Home = () => {
-
-    return(
-        <nav>
-            <div>
-                <Link to={"/"}>OnCare  </Link>
-                <Link to={"/Register"}>Register  </Link>
-                <Link to={"/Login"}>Login  </Link>
-            </div>
-        </nav>
-    )
+  return (
+    <div className='SOS'>
+      <div className='logo'>
+        <div className='menu'></div>
+      </div>
+      <div className='icons'>
+        <div className='icon ambulance'></div>
+        <div className='icon police'></div>
+        <div className='icon fire'></div>
+      </div>
+    </div>
+  );
 }
-
 
 export default Home;
