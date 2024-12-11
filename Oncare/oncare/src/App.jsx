@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Register from './Components/Login/Signup/Register'
-import Login from './Components/Login/Login'
-import Home from './Components/Home/Home';
-import About from './Components/About/about';
-import Navbar from './Components/Home/Navbar';
+import Register from './Components/Login/Signup/Register.jsx'
+import Login from './Components/Login/Login.jsx'
+import Home from './Components/Home/Home.jsx';
+import About from './Components/About/about.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

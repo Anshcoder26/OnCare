@@ -27,6 +27,10 @@ const userSchema = new Schema(
             required: true,
             trim: true
         },
+        gender:{
+            type: string,
+            required: true,
+        },
         refreshToken: {
             type: String
         }
